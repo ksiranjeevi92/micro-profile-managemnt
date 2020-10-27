@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+import mimetypes
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -30,6 +31,8 @@ ALLOWED_HOSTS = [
     '143.110.190.154',
     '127.0.0.1'
 ]
+
+mimetypes.add_type("text/css",".css", True)
 
 
 # Application definition
