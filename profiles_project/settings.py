@@ -27,6 +27,7 @@ SECRET_KEY = 'v2n=n8&y&ukgp$wa520tlf-k$vom+%((@uj%$2u#-k01^%a3u)'
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
 ALLOWED_HOSTS = [
+    'http://143.110.190.154/',
     '127.0.0.1'
 ]
 
